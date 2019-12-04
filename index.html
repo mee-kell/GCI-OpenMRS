@@ -5,13 +5,26 @@
 
 <style type="text/css">
 
-	table, tr, td {
+	* {
+		font-family: Avenir;
+	}
+
+	table {
 		border: 1px solid black;
+		padding: 10px;
 	}
 
 	.header {
 		background-color: blue;
 		padding: 50px;
+	}
+
+	.dear h2 {
+		display: inline-block;
+	}
+
+	.logo img {
+		width: 100%;
 	}
 
 	td {
@@ -25,17 +38,23 @@
 <body>
 
 	<table>
-		<tr class = "logo"><td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/OpenMRS_logo_2008.svg/1280px-OpenMRS_logo_2008.svg.png"> </td></tr>
+		<tr class = "logo">
+			<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/OpenMRS_logo_2008.svg/1280px-OpenMRS_logo_2008.svg.png"> </td>
+		</tr>
 		<tr>
-			<td><h1>Thank you for contributing to OpenMRS during Google Code In 2019!</h1><td>
+			<td>
+				<h1>Google Code In 2019</h1>
+				<h1>Thank you for contributing to OpenMRS!</h1>
+			</td>
 		</tr>
 	</table>
 
 	<table>
 
 		<tr class="dear">
-			<td> <h2>Dear </h2> </td>
-			<td> <h2 contentEditable="true"><i>participant name</i></h2> </td>
+			<td> 
+				<h2>Dear </h2> 
+				<h2 contentEditable="true"><i>participant name</i></h2> </td>
 			</td>
 		</tr>
 

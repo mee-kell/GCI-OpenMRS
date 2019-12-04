@@ -1,60 +1,102 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Thanks for your hard work!</title>
+	<title>Thanks for your hard work!</title>
 
-<style type="text/css">
+	<style type="text/css">
+		* {
+			font-family: Avenir;
+			text-align: center;
+		}
 
-	* {
-		font-family: Avenir;
-	}
+		body {
+			background-color: lightgray;
+		}
 
-	table {
-		border: 1px solid black;
-		padding: 10px;
-	}
+		table {
+			padding: 10px;
+			width: 90%;
+			margin: 0 auto;
+			display: block;
+			max-width: 700px;
+			background-color: white;
+		}
 
-	.header {
-		background-color: blue;
-		padding: 50px;
-	}
+		.header {
+			background-color: #EEA616;
+			padding: 40px;
+		}
 
-	.dear h2 {
-		display: inline-block;
-	}
+		.header h1 {
+			font-size: 40px;
+		}
 
-	.logo img {
-		width: 100%;
-	}
+		h2 {
+			font-size: 28px;
+		}
 
-	td {
-		vertical-align: top;
-		margin: 0 auto;
-	}
+		.dear h2 {
+			display: inline-block;
+		}
 
-</style>
+		.logo img {
+			width: 100%;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		h4 {
+			font-size: 10vw;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		td {
+			vertical-align: top;
+			margin: 0 auto;
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		.message td {
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		.main {
+			padding-bottom: 50px;
+		}
+
+	</style>
 </head>
-	
+
 <body>
 
+
 	<table>
-		<tr class = "logo">
-			<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/OpenMRS_logo_2008.svg/1280px-OpenMRS_logo_2008.svg.png"> </td>
+		<tr class="logo">
+			<td>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/OpenMRS_logo_2008.svg/1280px-OpenMRS_logo_2008.svg.png"> </td>
 		</tr>
+	</table>
+
+	<table class="header">
 		<tr>
 			<td>
-				<h1>Google Code In 2019</h1>
 				<h1>Thank you for contributing to OpenMRS!</h1>
 			</td>
 		</tr>
 	</table>
 
-	<table>
+	<table class = "main">
 
 		<tr class="dear">
 			<td> 
 				<h2>Dear </h2> 
-				<h2 contentEditable="true"><i>participant name</i></h2> </td>
+				<h2 contentEditable="true">participant name,</h2> </td>
 			</td>
 		</tr>
 
@@ -67,23 +109,17 @@
 		<tr>
 			<td>
 				<h2>During the contest, you completed </h2>
-				<h2 contentEditable="true"><i>XX</i></h2> 
+				<h4 contentEditable="true">XX</h4> 
 				<h2>tasks for OpenMRS.</h2>
 			</td>
 		</tr>
 
 		<tr class="message">
-			<td> <h3>We really appreciate that, and wanted to say thank you for spending your time and effort towards making OpenMRS bigger and better.</h3> </td>
+			<td> 
+				<h1>Thank you so much!</h1>
+				<h3>We really appreciate the time and effort that you've dedicated towards making OpenMRS bigger and better. We hope you enjoyed the experience, and we're looking forward to working with you again in the future!</h3>
+			</td>
 		</tr>
-
-		<tr>
-			<td><h3>If you'd like to keep up with OpenMRS, you can follow the latest updates here.</h3></td>
-		</tr>
-
-		<tr>
-			<td><h3>We hope to work with you again in future!</h3></td>
-		</tr>
-
 	</table>
 
 </body>

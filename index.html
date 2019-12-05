@@ -3,7 +3,6 @@
 
 <head>
 	<title>Thanks for your hard work!</title>
-
 	<style type="text/css">
 		* {
 			font-family: Avenir;
@@ -11,7 +10,7 @@
 		}
 
 		body {
-			background-color:  #e7ddc5;
+			background-color: #e7ddc5;
 		}
 
 		table {
@@ -21,6 +20,13 @@
 			display: block;
 			max-width: 700px;
 			background-color: white;
+		}
+
+		td {
+			vertical-align: top;
+			margin: 0 auto;
+			padding-left: 25px;
+			padding-right: 25px;
 		}
 
 		.header {
@@ -35,6 +41,14 @@
 			color: #EEA616;
 		}
 
+		.congrats h1 {
+			color: #009384;
+		}
+
+		.main {
+			padding-bottom: 50px;
+		}
+
 		h2 {
 			font-size: 28px;
 		}
@@ -43,15 +57,15 @@
 			display: inline-block;
 		}
 
-		.logo img {
-			width: 100%;
-			display: block;
-		}
-
 		.logo {
 			padding: 0;
 			background-color: #1b1919;
 			margin-bottom: 0;
+		}
+
+		.logo img {
+			width: 100%;
+			display: block;
 		}
 
 		h3 {
@@ -65,17 +79,6 @@
 			color: #5B57A6;
 		}
 
-		.congrats h1 {
-			color: #009384;
-		}
-
-		td {
-			vertical-align: top;
-			margin: 0 auto;
-			padding-left: 25px;
-			padding-right: 25px;
-		}
-
 		.message td {
 			padding-left: 50px;
 			padding-right: 50px;
@@ -84,55 +87,30 @@
 		.message h1 {
 			color: #F26522;
 		}
-
-		.main {
-			padding-bottom: 50px;
-		}
-
 	</style>
 </head>
 
 <body>
-
-
-	<table class = "logo">
+	<table class="logo">
 		<tr>
-			<td>
-				<img src="/logo.png"> </td>
+			<td><img src="/logo.png"> </td>
 		</tr>
 	</table>
-
 	<table class="header">
 		<tr>
-			<td>
-				<h1>Thank you for contributing to OpenMRS!</h1>
-			</td>
+			<td><h1>Thank you for contributing to OpenMRS!</h1></td>
 		</tr>
 	</table>
-
 	<table class = "main">
-
 		<tr class="dear">
-			<td> 
-				<h2>Dear </h2> 
-				<h2 contentEditable="true">participant name,</h2> </td>
-			</td>
+			<td><h2>Dear </h2><h2 contentEditable="true">participant name,</h2></td>
 		</tr>
-
 		<tr class="congrats">
-			<td>
-				<h1>Congratulations for successfully completing Google Code In 2019!</h1>
-			</td>
+			<td><h1>Congratulations for successfully completing Google Code In 2019!</h1></td>
 		</tr>
-
 		<tr>
-			<td>
-				<h2>During the contest, you completed </h2>
-				<h4 contentEditable="true">XX</h4> 
-				<h2>tasks for OpenMRS.</h2>
-			</td>
+			<td><h2>During the contest, you completed </h2><h4 contentEditable="true">XX</h4><h2>tasks for OpenMRS.</h2></td>
 		</tr>
-
 		<tr class="message">
 			<td> 
 				<h1>Thank you so much!</h1>
@@ -140,7 +118,5 @@
 			</td>
 		</tr>
 	</table>
-
 </body>
-
 </html>
